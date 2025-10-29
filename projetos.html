@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoPulse - Projetos</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+       <img src="imagens/ecopulse.png.png" height="300px">
+        <a href="index.html">Início</a>
+        <a href="cadastro.html">Seja um Voluntário</a>
+         <a href="projetos.html"> Projetos </a>
+      
+         
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="projetos" class="grid-12">
+  <article class="col-4">
+    <h3>Plante Esperança</h3>
+    <img src="imagens/plantar.jpg" alt="Voluntários plantando árvores">
+    <p>Campanha de reflorestamento em áreas degradadas, envolvendo comunidades locais e voluntários.</p>
+  </article>
+
+  <article class="col-4">
+    <h3>Reciclar é Transformar</h3>
+    <img src="imagens/coletaseletiva.jpg" alt="Oficina de reciclagem">
+    <p>Promove oficinas de reciclagem e conscientização ambiental para escolas e comunidades.</p>
+  </article>
+
+  <article class="col-4">
+    <h3>Educar para o Verde</h3>
+    <img src="imagens/educar.png" alt="Palestra sobre meio ambiente">
+    <p>Oferece palestras, workshops e atividades educativas para ensinar práticas sustentáveis.</p>
+  </article>
+</section>
+   
+    </main>
+
+    <section id="voluntariado">
+      <h2>Seja um Voluntário</h2>
+      <p>Participe de nossos projetos e ajude a transformar o planeta. Cadastre-se como voluntário e receba informações sobre oportunidades de ação.</p>
+      <a href="cadastro.html">Cadastrar-se como Voluntário</a>
+    </section>
+
+
+      <h2>Formas de doação:</h2>
+      
+      <p class="contribua">Contribua com nossos projetos e ajude a manter nossas iniciativas. Qualquer valor faz diferença!</p>
+<p>Chave pix: contato@ongecopulse.com.br</p>
+
+    </section>
+
+  
+
+  <footer>
+    <p>&copy; 2025 EcoPulse. Todos os direitos reservados.</p>
+    <p>Email: contato@ecopulse.org | Telefone: (11) 98765-4321</p>
+  </footer>
+ <script>
+  const menuToggle = document.getElementById('mobile-menu');
+  const navList = document.querySelector('.nav-list');
+  if(menuToggle && navList){
+    menuToggle.addEventListener('click', () => {
+      navList.classList.toggle('active');
+    });
+  }
+</script>
+</body>
+</html>
